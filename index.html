@@ -1,0 +1,794 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>I C My Oil — Fresh oil pressed in front of you | Baner, Pune</title>
+<meta name="description" content="Live oil extraction in Baner, Pune. Bring your own seeds or buy ours at wholesale rates — groundnut, mustard, sesame, coconut and more, pressed hot or cold while you watch and filled in glass bottles.">
+<meta property="og:title" content="I C My Oil — Fresh oil pressed in front of you">
+<meta property="og:description" content="Bring your seeds, watch them pressed, take the oil home in glass. Baner Balewadi Road, Pune. Open daily 9:00 am – 7:30 pm.">
+<meta property="og:image" content="https://icmyoil.com/images/about.jpg">
+<meta name="theme-color" content="#2E2617">
+<link rel="icon" href="https://icmyoil.com/images/logo-1.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Young+Serif&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Store",
+  "name": "I C My Oil",
+  "image": "https://icmyoil.com/images/about.jpg",
+  "telephone": "+91 7414901815",
+  "email": "icmyoil.btl@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "131/1/1, S2, Yogiraj Heights, Near Cosmos Organic, Baner Balewadi Road",
+    "addressLocality": "Pune",
+    "addressRegion": "Maharashtra",
+    "postalCode": "411045",
+    "addressCountry": "IN"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 18.5661532, "longitude": 73.7826258 },
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+    "opens": "09:00", "closes": "19:30"
+  }],
+  "url": "https://icmyoil.com/"
+}
+</script>
+
+<style>
+:root{
+  --paper:#F1F2E8;
+  --surface:#FAFBF5;
+  --husk:#2E2617;
+  --husk-soft:#5C5340;
+  --line:#D6D8C8;
+  --oil:#D9A21B;
+  --oil-light:#F2D27A;
+  --oil-deep:#8E6406;
+  --leaf:#3D5A2C;
+  --leaf-soft:#E2E8D6;
+  --glass:#DCE6DF;
+  --sun:#F6E4A6;
+  --radius-lg:28px;
+  --radius:14px;
+  --wrap:1180px;
+  --serif:"Young Serif", Georgia, serif;
+  --sans:"Figtree", system-ui, -apple-system, "Segoe UI", sans-serif;
+  color-scheme:light;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{margin:0;background:var(--paper);color:var(--husk);font-family:var(--sans);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit}
+h1,h2,h3{font-family:var(--serif);font-weight:400;line-height:1.12;margin:0;letter-spacing:-.01em}
+h2{font-size:clamp(2rem,4vw,3rem)}
+h3{font-size:1.3rem}
+p{margin:0}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 20px}
+:focus-visible{outline:3px solid var(--oil);outline-offset:3px;border-radius:6px}
+.skip{position:absolute;left:-999px;top:8px;background:var(--husk);color:#fff;padding:8px 14px;border-radius:8px;z-index:100}
+.skip:focus{left:8px}
+
+/* Buttons */
+.btn{display:inline-flex;align-items:center;gap:10px;font:600 1rem/1 var(--sans);text-decoration:none;padding:15px 22px;border-radius:999px;border:2px solid transparent;cursor:pointer;transition:background .2s,color .2s,border-color .2s}
+.btn svg{width:20px;height:20px;flex:none}
+.btn-primary{background:var(--husk);color:#fff}
+.btn-primary:hover{background:var(--leaf)}
+.btn-ghost{border-color:var(--husk);color:var(--husk);background:transparent}
+.btn-ghost:hover{background:var(--husk);color:#fff}
+.btn-oil{background:var(--oil);color:var(--husk)}
+.btn-oil:hover{background:var(--oil-light)}
+
+/* Header */
+.site-header{position:sticky;top:0;z-index:50;background:rgba(241,242,232,.92);backdrop-filter:blur(10px);border-bottom:1px solid transparent;transition:border-color .2s}
+.site-header.scrolled{border-bottom-color:var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:72px;gap:20px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none}
+.brand img{height:46px;width:auto}
+.brand .wordmark{font-family:var(--serif);font-size:1.35rem;display:none}
+.brand.no-logo .wordmark{display:block}
+.nav-links{display:flex;gap:28px;list-style:none;margin:0;padding:0}
+.nav-links a{text-decoration:none;font-weight:500;color:var(--husk-soft);white-space:nowrap}
+.nav-links a:hover{color:var(--husk)}
+.nav-cta{padding:11px 18px;font-size:.95rem}
+.menu-btn{display:none;background:none;border:0;padding:8px;cursor:pointer;color:var(--husk)}
+.menu-btn svg{width:28px;height:28px}
+
+/* Hero */
+.hero{padding:56px 0 88px}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:center}
+.hero h1{font-size:clamp(2.6rem,6.2vw,5rem);max-width:12ch}
+.hero .lede{font-size:1.2rem;color:var(--husk-soft);max-width:46ch;margin-top:24px}
+.hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
+.facts{display:flex;flex-wrap:wrap;gap:10px 28px;margin-top:36px;padding:0;list-style:none;font-size:.97rem;color:var(--husk-soft)}
+.facts li{display:flex;align-items:center;gap:8px}
+.dot{width:9px;height:9px;border-radius:50%;background:#9AA08A;flex:none}
+.dot.open{background:#4C8A2E;box-shadow:0 0 0 4px rgba(76,138,46,.18)}
+.dot.closed{background:#B5523A}
+
+/* Calculator — the bottle */
+.press{background:var(--husk);color:#F4EFDF;border-radius:var(--radius-lg);padding:28px;display:grid;grid-template-columns:1fr 132px;gap:22px;align-items:end}
+.press h2{font-size:1.55rem;color:#fff;grid-column:1/-1}
+.press .sub{grid-column:1/-1;color:#C9C0A8;font-size:.95rem;margin-top:-14px}
+.field{display:flex;flex-direction:column;gap:6px;margin-bottom:16px}
+.field label{font-size:.88rem;color:#C9C0A8}
+.press select{appearance:none;width:100%;font:500 1rem var(--sans);color:#fff;background:#43392A url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='9' fill='none'%3E%3Cpath d='M1 1l6 6 6-6' stroke='%23F2D27A' stroke-width='2'/%3E%3C/svg%3E") no-repeat right 14px center;border:1px solid #5A4E3A;border-radius:10px;padding:12px 40px 12px 14px}
+.stepper{display:flex;align-items:center;border:1px solid #5A4E3A;border-radius:10px;background:#43392A;overflow:hidden;width:max-content}
+.stepper button{background:none;border:0;color:var(--oil-light);font:600 1.3rem var(--sans);width:46px;height:46px;cursor:pointer}
+.stepper button:hover{background:#544833}
+.stepper output{min-width:84px;text-align:center;font-weight:600;color:#fff}
+.readout{border-top:1px solid #4A3F2E;padding-top:14px;display:grid;gap:8px}
+.readout div{display:flex;justify-content:space-between;gap:12px;font-size:.95rem}
+.readout dt{color:#C9C0A8}
+.readout dd{margin:0;font-weight:600;color:#fff;text-align:right}
+.readout .big dd{font-family:var(--serif);font-weight:400;font-size:1.6rem;color:var(--oil-light)}
+.press .note{grid-column:1/-1;font-size:.82rem;color:#A79E86}
+.bottle{width:132px;height:auto}
+.bottle .oil-fill{transition:y .7s cubic-bezier(.3,.7,.3,1),height .7s cubic-bezier(.3,.7,.3,1)}
+.bottle-label{font:600 13px var(--sans);fill:var(--husk)}
+
+/* Sections */
+section{padding:96px 0}
+.section-head{max-width:640px;margin-bottom:48px}
+.section-head p{color:var(--husk-soft);font-size:1.1rem;margin-top:16px}
+
+/* Steps */
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:2px solid var(--husk);list-style:none;margin:0;padding:0;counter-reset:step}
+.steps li{padding:28px 28px 8px 0;counter-increment:step}
+.steps li+li{padding-left:28px;border-left:1px solid var(--line)}
+.steps li::before{content:counter(step);font-family:var(--serif);font-size:3.2rem;line-height:1;color:var(--oil-deep);display:block;margin-bottom:18px}
+.steps h3{margin-bottom:10px}
+.steps p{color:var(--husk-soft)}
+.steps .small{display:block;margin-top:12px;font-size:.92rem;color:var(--leaf);font-weight:600}
+
+/* Story band */
+.story{background:var(--leaf);color:#EEF1E6;padding:0}
+.story-grid{display:grid;grid-template-columns:1fr 1fr;align-items:stretch}
+.story-img{min-height:420px;background:#2C4220 center/cover no-repeat}
+.story-copy{padding:80px 56px;display:flex;flex-direction:column;justify-content:center;gap:20px;max-width:620px}
+.story-copy h2{color:#fff}
+.story-copy p{color:#D7DECB;font-size:1.08rem}
+
+/* Products */
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:32px}
+.filters button{font:600 .95rem var(--sans);padding:10px 18px;border-radius:999px;border:1.5px solid var(--line);background:var(--surface);color:var(--husk-soft);cursor:pointer}
+.filters button[aria-pressed="true"]{background:var(--husk);border-color:var(--husk);color:#fff}
+.products{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:20px;list-style:none;margin:0;padding:0}
+.product{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;display:flex;flex-direction:column}
+.product[hidden]{display:none}
+.product .ph{aspect-ratio:1/1;background:var(--glass);overflow:hidden}
+.product .ph img{width:100%;height:100%;object-fit:cover;transition:transform .5s ease}
+.product:hover .ph img{transform:scale(1.04)}
+.product.featured{border-color:var(--oil);box-shadow:0 0 0 2px var(--oil) inset}
+.product .tag.hot{background:var(--oil);color:var(--husk)}
+.product .body{padding:18px 18px 20px;display:flex;flex-direction:column;gap:8px;flex:1}
+.product h3{font-size:1.18rem}
+.product p{font-size:.95rem;color:var(--husk-soft);flex:1}
+.product .tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+.product .tag{font-size:.78rem;font-weight:600;padding:3px 9px;border-radius:999px;background:var(--leaf-soft);color:var(--leaf)}
+.product a.ask{margin-top:10px;font-weight:600;font-size:.95rem;color:var(--husk);text-decoration:none;display:inline-flex;align-items:center;gap:8px;border-top:1px solid var(--line);padding-top:14px}
+.product a.ask svg{width:18px;height:18px;color:#25A244}
+.product a.ask:hover{color:var(--leaf)}
+.price-note{margin-top:28px;padding:18px 22px;border-radius:var(--radius);background:var(--leaf-soft);color:var(--leaf);font-size:.98rem;max-width:760px}
+
+/* Why fresh */
+.why{background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.why-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:64px;align-items:start}
+.why-list{display:grid;gap:0;list-style:none;margin:0;padding:0}
+.why-list li{padding:22px 0;border-bottom:1px solid var(--line);display:grid;grid-template-columns:28px 1fr;gap:14px}
+.why-list li:first-child{padding-top:0}
+.why-list svg{width:24px;height:24px;color:var(--oil-deep);margin-top:3px}
+.why-list h3{font-family:var(--sans);font-weight:700;font-size:1.08rem;margin-bottom:4px;letter-spacing:0}
+.why-list p{color:var(--husk-soft)}
+.certs{display:flex;gap:16px;margin-top:36px}
+.certs figure{margin:0;flex:1;background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:10px}
+.certs img{width:100%;height:190px;object-fit:contain}
+.certs figcaption{font-size:.85rem;color:var(--husk-soft);text-align:center;margin-top:6px}
+
+/* Reviews */
+.reviews{display:grid;grid-template-columns:repeat(6,1fr);gap:20px}
+.review{margin:0;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:26px;display:flex;flex-direction:column;gap:18px;grid-column:span 2}
+.review.wide{grid-column:span 3;background:var(--husk);color:#EFE9D8;border-color:var(--husk)}
+.review blockquote{margin:0;font-size:1rem}
+.review.wide blockquote{font-family:var(--serif);font-size:1.25rem;line-height:1.45}
+.review figcaption{font-weight:700;margin-top:auto;display:flex;align-items:center;gap:12px}
+.review figcaption small{display:block;font-weight:400;font-size:.88rem;color:var(--husk-soft)}
+.review.wide figcaption small{color:#C9C0A8}
+.avatar{width:42px;height:42px;border-radius:50%;display:grid;place-items:center;flex:none;background:var(--leaf-soft);color:var(--leaf);font-size:.9rem;font-weight:700}
+.review.wide .avatar{background:var(--oil);color:var(--husk)}
+
+/* FAQ */
+.faq-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:64px}
+.faq details{border-bottom:1px solid var(--line)}
+.faq details:first-of-type{border-top:1px solid var(--line)}
+.faq summary{list-style:none;cursor:pointer;padding:20px 40px 20px 0;font-weight:600;font-size:1.06rem;position:relative}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"";position:absolute;right:6px;top:50%;width:12px;height:12px;border-right:2px solid var(--husk);border-bottom:2px solid var(--husk);transform:translateY(-70%) rotate(45deg);transition:transform .25s}
+.faq details[open] summary::after{transform:translateY(-30%) rotate(-135deg)}
+.faq .answer{padding:0 0 22px;color:var(--husk-soft);max-width:62ch}
+
+/* Visit */
+.visit{background:var(--husk);color:#EFE9D8}
+.visit h2{color:#fff}
+.visit-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start}
+.contact-list{list-style:none;margin:32px 0 0;padding:0;display:grid;gap:22px}
+.contact-list li{display:grid;grid-template-columns:28px 1fr;gap:14px}
+.contact-list svg{width:24px;height:24px;color:var(--oil-light);margin-top:2px}
+.contact-list strong{display:block;color:#fff;font-weight:600}
+.contact-list a{color:#EFE9D8}
+.contact-list a:hover{color:var(--oil-light)}
+.map{border-radius:var(--radius);overflow:hidden;margin-top:32px;aspect-ratio:16/10;background:#3A3020}
+.map iframe{width:100%;height:100%;border:0;display:block}
+.enquiry{background:#3A3020;border-radius:var(--radius-lg);padding:32px}
+.enquiry h3{color:#fff;font-size:1.6rem}
+.enquiry > p{color:#C9C0A8;margin:8px 0 22px}
+.enquiry label{display:block;font-size:.9rem;color:#C9C0A8;margin-bottom:6px}
+.enquiry input,.enquiry select,.enquiry textarea{width:100%;font:500 1rem var(--sans);color:#fff;background:#2E2617;border:1px solid #5A4E3A;border-radius:10px;padding:13px 14px;margin-bottom:16px}
+.enquiry textarea{min-height:110px;resize:vertical}
+.enquiry select{appearance:none;background:#2E2617 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='9' fill='none'%3E%3Cpath d='M1 1l6 6 6-6' stroke='%23F2D27A' stroke-width='2'/%3E%3C/svg%3E") no-repeat right 14px center}
+.enquiry .row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.enquiry .btn{width:100%;justify-content:center}
+.enquiry .hint{font-size:.85rem;color:#A79E86;margin-top:12px}
+
+/* Featured: sunflower */
+.feature{background:var(--sun);padding:88px 0;overflow:hidden}
+.feature-grid{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1fr);gap:64px;align-items:center}
+.poster{display:block;position:relative;border-radius:22px;overflow:hidden;box-shadow:0 30px 60px -20px rgba(110,74,0,.45),0 0 0 6px #fff;max-width:440px;justify-self:center;width:100%}
+.poster img{width:100%;height:auto;transition:transform .6s ease}
+.poster:hover img{transform:scale(1.025)}
+.poster .zoom{position:absolute;right:12px;bottom:12px;background:rgba(46,38,23,.85);color:#fff;font-size:.82rem;font-weight:600;padding:7px 12px;border-radius:999px}
+.badge{display:inline-flex;align-items:center;gap:8px;background:var(--husk);color:var(--oil-light);font-weight:600;font-size:.9rem;padding:7px 14px;border-radius:999px;margin-bottom:20px}
+.badge svg{width:16px;height:16px}
+.feature h2{font-size:clamp(2.2rem,4.6vw,3.6rem);max-width:13ch}
+.feature-copy > p{font-size:1.15rem;color:#4A4128;margin-top:18px;max-width:46ch}
+.spec{margin:28px 0 0;display:grid;gap:0;max-width:520px}
+.spec div{display:grid;grid-template-columns:150px 1fr;gap:16px;padding:14px 0;border-top:1px solid rgba(46,38,23,.18)}
+.spec div:last-child{border-bottom:1px solid rgba(46,38,23,.18)}
+.spec dt{font-weight:700}
+.spec dd{margin:0;color:#4A4128}
+.feature .hero-actions{margin-top:30px}
+
+/* Footer */
+.site-footer{background:#231D11;color:#A79E86;font-size:.95rem;padding:64px 0 0}
+.footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1.2fr;gap:40px;padding-bottom:48px}
+.site-footer strong{display:block;color:#fff;font-weight:600;margin-bottom:10px}
+.site-footer .f-brand{font-family:var(--serif);font-weight:400;font-size:1.6rem;margin-bottom:12px}
+.site-footer a{color:#C9C0A8;text-decoration:none}
+.site-footer a:hover{color:var(--oil-light)}
+.footer-links{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.footer-bottom{border-top:1px solid #3A3020;padding:22px 0;font-size:.88rem}
+.footer-bottom .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
+
+.wa-float{position:fixed;right:18px;bottom:18px;z-index:60;width:58px;height:58px;border-radius:50%;background:#25A244;color:#fff;display:grid;place-items:center;box-shadow:0 8px 24px rgba(46,38,23,.3)}
+.wa-float svg{width:30px;height:30px}
+
+/* Responsive */
+@media (max-width:980px){
+  .hero-grid,.why-grid,.faq-grid,.visit-grid,.feature-grid{grid-template-columns:1fr;gap:40px}
+  .footer-grid{grid-template-columns:1fr 1fr}
+  .feature{padding:64px 0}
+  .story-grid{grid-template-columns:1fr}
+  .story-copy{padding:56px 20px;max-width:none}
+  .story-img{min-height:300px}
+  .reviews{grid-template-columns:1fr 1fr}
+  .review,.review.wide{grid-column:span 1}
+  .review.wide:first-child{grid-column:1/-1}
+}
+@media (max-width:1100px){
+  .nav-links,.nav-cta{display:none}
+  .menu-btn{display:block}
+  .site-header.menu-open .nav-links{display:flex;flex-direction:column;gap:0;position:absolute;top:72px;left:0;right:0;background:var(--paper);border-bottom:1px solid var(--line);padding:8px 20px 16px}
+  .site-header.menu-open .nav-links a{display:block;padding:14px 0;font-size:1.1rem;border-bottom:1px solid var(--line)}
+}
+@media (max-width:820px){
+  .steps{grid-template-columns:1fr;border-top:0}
+  .steps li,.steps li+li{padding:24px 0;border-left:0;border-top:2px solid var(--husk)}
+  section{padding:72px 0}
+}
+@media (max-width:560px){
+  body{font-size:16px}
+  .hero{padding:32px 0 64px}
+  .press{grid-template-columns:1fr 92px;padding:22px;gap:16px}
+  .bottle{width:92px}
+  .reviews{grid-template-columns:1fr}
+  .review.wide:first-child{grid-column:auto}
+  .certs{flex-direction:column}
+  .enquiry{padding:24px}
+  .enquiry .row{grid-template-columns:1fr;gap:0}
+  .footer-grid{grid-template-columns:1fr;gap:28px}
+  .footer-bottom{padding-bottom:96px}
+  .spec div{grid-template-columns:1fr;gap:2px}
+  .hero-actions .btn{flex:1 1 100%;justify-content:center}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *{transition:none!important}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- Reusable icons -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91C21.95 6.45 17.5 2 12.04 2Zm5.8 14.03c-.24.68-1.42 1.32-1.95 1.36-.5.05-.97.23-3.27-.68-2.77-1.09-4.52-3.92-4.66-4.1-.13-.18-1.11-1.48-1.11-2.83 0-1.35.71-2.01.96-2.28.25-.27.54-.34.72-.34h.52c.17 0 .39-.06.61.47.23.54.77 1.89.84 2.03.07.14.11.3.02.48-.09.18-.14.3-.27.46-.14.16-.28.36-.41.48-.14.14-.28.28-.12.56.16.27.71 1.17 1.52 1.89 1.05.93 1.93 1.22 2.2 1.36.27.14.43.11.59-.07.16-.18.68-.79.86-1.07.18-.27.36-.23.61-.14.25.09 1.59.75 1.86.89.27.14.45.2.52.32.07.11.07.66-.17 1.33Z"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A17 17 0 0 1 3 5a2 2 0 0 1 2-2Z"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="m3 7 9 6 9-6" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 7v5l3 2" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+  <symbol id="i-drop" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11Z"/></symbol>
+  <symbol id="i-eye" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+  <symbol id="i-leaf" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" d="M5 19C5 10 11 5 20 4c0 9-5 15-14 15Zm0 0 7-7"/></symbol>
+  <symbol id="i-bottle" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" d="M10 2h4v4c0 1 4 2 4 5v9a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2v-9c0-3 4-4 4-5V2Z"/></symbol>
+  <symbol id="i-scale" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" d="M12 3v18M5 21h14M5 7h14M5 7l-3 7a3 3 0 0 0 6 0L5 7Zm14 0-3 7a3 3 0 0 0 6 0l-3-7Z"/></symbol>
+</svg>
+
+<header class="site-header" id="top">
+  <div class="wrap nav">
+    <a class="brand" href="#top" aria-label="I C My Oil home">
+      <img src="https://icmyoil.com/images/logo-1.png" alt="I C My Oil" onerror="this.parentNode.classList.add('no-logo');this.remove()">
+      <span class="wordmark">I C My Oil</span>
+    </a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#sunflower">Sunflower oil</a></li>
+      <li><a href="#how">How it works</a></li>
+      <li><a href="#oils">Oils</a></li>
+      <li><a href="#why">Why fresh</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#visit">Visit us</a></li>
+    </ul>
+    <a class="btn btn-primary nav-cta" href="https://wa.me/917414901815" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>WhatsApp us</a>
+    <button class="menu-btn" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <h1>Fresh oil, pressed in front of you.</h1>
+      <p class="lede">Bring your own seeds or buy ours at wholesale rates. We press them hot or cold while you wait — about 10–15 minutes a litre — and fill your oil in glass, not plastic.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="https://wa.me/917414901815?text=Hi%2C%20I%27d%20like%20to%20know%20today%27s%20oil%20and%20seed%20prices." target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>Ask today's prices</a>
+        <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&query=I+C+My+Oil+Baner+Pune" target="_blank" rel="noopener"><svg><use href="#i-pin"/></svg>Get directions</a>
+      </div>
+      <ul class="facts">
+        <li><span class="dot" id="open-dot"></span><span id="open-text">Open daily, 9:00 am – 7:30 pm</span></li>
+        <li><svg width="18" height="18"><use href="#i-pin"/></svg>Baner Balewadi Road, Pune</li>
+        <li><svg width="18" height="18"><use href="#i-eye"/></svg>Every batch pressed live</li>
+      </ul>
+    </div>
+
+    <!-- Signature: the yield bottle -->
+    <form class="press" id="press" aria-labelledby="press-title" onsubmit="return false">
+      <h2 id="press-title">How much oil will my seeds give?</h2>
+      <p class="sub">A rough guide before you visit.</p>
+      <div>
+        <div class="field">
+          <label for="seed">Seed</label>
+          <select id="seed">
+            <option value="groundnut">Groundnut (peanut)</option>
+            <option value="coconut">Dry coconut (copra)</option>
+            <option value="kalonji">Kalonji (black seed)</option>
+            <option value="mustard">Mustard</option>
+            <option value="sesame">Sesame (til)</option>
+          </select>
+        </div>
+        <div class="field">
+          <label id="kg-label">Seed weight</label>
+          <div class="stepper" role="group" aria-labelledby="kg-label">
+            <button type="button" id="kg-minus" aria-label="Less seed">−</button>
+            <output id="kg" aria-live="polite">2 kg</output>
+            <button type="button" id="kg-plus" aria-label="More seed">+</button>
+          </div>
+        </div>
+        <dl class="readout" aria-live="polite">
+          <div class="big"><dt>Oil you take home</dt><dd id="r-yield">0.6–0.9 L</dd></div>
+          <div><dt>Processing charge</dt><dd id="r-fee">₹50</dd></div>
+          <div><dt>Pressing time</dt><dd id="r-time">about 15 min</dd></div>
+        </dl>
+      </div>
+      <svg class="bottle" viewBox="0 0 120 250" role="img" aria-label="Bottle showing estimated oil yield">
+        <defs>
+          <clipPath id="bottle-clip"><path d="M46 20h28v30c0 11 36 20 36 46v132a14 14 0 0 1-14 14H24a14 14 0 0 1-14-14V96c0-26 36-35 36-46V20Z"/></clipPath>
+          <linearGradient id="oil-g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#C58E0E"/><stop offset=".55" stop-color="#F2C64D"/><stop offset="1" stop-color="#C58E0E"/></linearGradient>
+        </defs>
+        <path d="M46 20h28v30c0 11 36 20 36 46v132a14 14 0 0 1-14 14H24a14 14 0 0 1-14-14V96c0-26 36-35 36-46V20Z" fill="#DCE6DF" fill-opacity=".14"/>
+        <rect class="oil-fill" id="oil-fill" x="0" y="242" width="120" height="0" fill="url(#oil-g)" clip-path="url(#bottle-clip)"/>
+        <path d="M46 20h28v30c0 11 36 20 36 46v132a14 14 0 0 1-14 14H24a14 14 0 0 1-14-14V96c0-26 36-35 36-46V20Z" fill="none" stroke="#DCE6DF" stroke-width="3"/>
+        <rect x="42" y="6" width="36" height="16" rx="4" fill="#8E6406"/>
+        <path d="M24 110v100" stroke="#fff" stroke-opacity=".25" stroke-width="5" stroke-linecap="round"/>
+      </svg>
+      <p class="note" id="r-note">Yields as quoted by the shop. Actual yield depends on seed quality — we weigh it with you.</p>
+    </form>
+  </div>
+</section>
+
+<!-- FEATURED: SUNFLOWER -->
+<section class="feature" id="sunflower" aria-labelledby="feature-title">
+  <div class="wrap feature-grid">
+    <a class="poster" href="images/sunflower-oil-poster.jpg" target="_blank" rel="noopener" aria-label="Open the sunflower oil poster full size">
+      <picture>
+        <source srcset="images/sunflower-oil-poster.webp" type="image/webp">
+        <img src="images/sunflower-oil-poster.jpg" alt="I C My Oil sunflower oil: a bottle of golden oil beside sunflowers and a bowl of sunflower seeds" width="1024" height="1536" loading="lazy">
+      </picture>
+      <span class="zoom">View full size</span>
+    </a>
+    <div class="feature-copy">
+      <span class="badge"><svg><use href="#i-drop"/></svg>Featured oil</span>
+      <h2 id="feature-title">Sunflower oil, pressed fresh</h2>
+      <p>Light in colour and mild in taste, so one bottle covers most of your kitchen — frying, baking, salad dressings and everyday cooking.</p>
+      <dl class="spec">
+        <div><dt>Ingredients</dt><dd>Pure sunflower seed oil. Nothing else.</dd></div>
+        <div><dt>Good for</dt><dd>Frying, baking, salads and daily cooking</dd></div>
+        <div><dt>Naturally has</dt><dd>Vitamin E — sunflower is one of the richer plant oils for it</dd></div>
+        <div><dt>Made</dt><dd>Pressed from whole seed, unrefined, no preservatives</dd></div>
+      </dl>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="https://wa.me/917414901815?text=Hi%2C%20what%27s%20today%27s%20price%20for%20sunflower%20oil%3F" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>Ask today's price</a>
+        <a class="btn btn-ghost" href="#oils">See all oils</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section id="how">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>How a visit works</h2>
+      <p>Nothing is pre-filled on a shelf. Your oil is pressed when you ask for it.</p>
+    </div>
+    <ol class="steps">
+      <li>
+        <h3>Bring seeds, or buy ours</h3>
+        <p>Groundnut, coconut, mustard, sesame and more. No seeds? We stock them at wholesale rates for pressing.</p>
+        <span class="small">You pay a per-kg processing charge</span>
+      </li>
+      <li>
+        <h3>Watch it pressed</h3>
+        <p>Choose hot press or cold press. Sesame can be single or double filtered. A litre takes about 10–15 minutes.</p>
+        <span class="small">No chemicals, no preservatives</span>
+      </li>
+      <li>
+        <h3>Take it home in glass</h3>
+        <p>We fill fridge-grade glass bottles. Bring your own container and save ₹30, or take a pouch for travel.</p>
+        <span class="small">Pouches cost ₹25 less than glass</span>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- STORY -->
+<section class="story" aria-labelledby="story-title">
+  <div class="story-grid">
+    <div class="story-img" role="img" aria-label="Fresh oil being extracted at the I C My Oil shop" style="background-image:url('https://icmyoil.com/images/about.jpg')"></div>
+    <div class="story-copy">
+      <h2 id="story-title">A family-run press in Baner</h2>
+      <p>I C My Oil started with a simple idea: if you can see your oil being made, you never have to wonder what's in it. Our customers watch their own seeds go into the press and walk out with the oil a few minutes later.</p>
+      <p>We keep pricing open — a processing charge per kilo, plus seed cost if you buy from us — and we push glass over plastic wherever we can.</p>
+      <div><a class="btn btn-oil" href="#oils">See what we press</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- OILS -->
+<section id="oils">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Oils we press</h2>
+      <p>Seed prices change with the market, so ask on WhatsApp for today's rate before you come in.</p>
+    </div>
+    <div class="filters" role="group" aria-label="Filter oils">
+      <button type="button" aria-pressed="true" data-filter="all">All oils</button>
+      <button type="button" aria-pressed="false" data-filter="cooking">For cooking</button>
+      <button type="button" aria-pressed="false" data-filter="care">For hair &amp; skin</button>
+    </div>
+    <ul class="products" id="products"></ul>
+    <p class="price-note">Processing is ₹25 per kg for groundnut, mustard and sesame. For other seeds and for oils we press from our own stock, message us for the current price.</p>
+  </div>
+</section>
+
+<!-- WHY FRESH -->
+<section class="why" id="why">
+  <div class="wrap why-grid">
+    <div>
+      <div class="section-head" style="margin-bottom:0">
+        <h2>Why pressed fresh beats bottled</h2>
+        <p>Store oil can sit for months and is often refined or blended. Ours goes from press to bottle while you're standing there.</p>
+      </div>
+      <div class="certs">
+        <figure><img src="https://icmyoil.com/images/fssai.jpeg" alt="I C My Oil FSSAI certificate" loading="lazy"><figcaption>FSSAI certificate</figcaption></figure>
+        <figure><img src="https://icmyoil.com/images/certificate.jpg" alt="I C My Oil business certificate" loading="lazy"><figcaption>Registration certificate</figcaption></figure>
+      </div>
+    </div>
+    <ul class="why-list">
+      <li><svg><use href="#i-eye"/></svg><div><h3>You see exactly what goes in</h3><p>Your own seeds, or ours that you can inspect first. Nothing is mixed in after pressing.</p></div></li>
+      <li><svg><use href="#i-drop"/></svg><div><h3>Unrefined, with nothing added</h3><p>No chemical solvents, bleaching or preservatives. The oil keeps the natural colour, taste and aroma of the seed.</p></div></li>
+      <li><svg><use href="#i-scale"/></svg><div><h3>Fair, transparent pricing</h3><p>You pay a per-kg processing charge. Bring your own seeds and you control the quality and the cost.</p></div></li>
+      <li><svg><use href="#i-bottle"/></svg><div><h3>Glass, not plastic</h3><p>Fridge-grade glass bottles at the lowest price we can manage — or bring your own container and save ₹30.</p></div></li>
+      <li><svg><use href="#i-leaf"/></svg><div><h3>Oils your grandparents used</h3><p>Kalonji, safflower, pumpkin seed and others that are hard to find fresh. If we don't stock a seed, we can usually source it from the market yard.</p></div></li>
+    </ul>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section id="reviews">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>What regulars say</h2>
+    </div>
+    <div class="reviews">
+      <figure class="review wide">
+        <blockquote>I am a regular customer of I C My Oil. Being an Ayurved doctor, I need fresh oils for treatments, massages and for making my own medicinal oils. I have got positive feedback from my patients. Oils from I C My Oil are pure, unadulterated and fresh, and prices are reasonable.</blockquote>
+        <figcaption><span class="avatar" aria-hidden="true">VB</span><span>Vinay Bhasin<small>Ayurveda doctor</small></span></figcaption>
+      </figure>
+      <figure class="review wide">
+        <blockquote>A great concept for a healthy lifestyle with no chance of adulteration. You can also get exotic oils that generations before us used. I have used the oils for cooking and for seasonal Ayurvedic massage. I feel blessed to have this shop in my locality.</blockquote>
+        <figcaption><span class="avatar" aria-hidden="true">AG</span><span>Ajit Gore<small>Local customer</small></span></figcaption>
+      </figure>
+      <figure class="review">
+        <blockquote>Healthy alternative to store-bought oils of unreliable quality. Deep, the proprietor, is transparent about pricing and gives you options — crush your own seeds, hot pressed or cold pressed. The packaging is environmentally sustainable too.</blockquote>
+        <figcaption><span class="avatar" aria-hidden="true">SL</span><span>Shirish Loharekar</span></figcaption>
+      </figure>
+      <figure class="review">
+        <blockquote>The extraction starts in front of you. The almond oil is pure, tastes really good and is helpful in day-to-day use. Come and experience cold-pressed oil with no chemicals and no adulteration.</blockquote>
+        <figcaption><span class="avatar" aria-hidden="true">JS</span><span>Jassu Suri</span></figcaption>
+      </figure>
+      <figure class="review">
+        <blockquote>Such a realistic concept! I can see oil extracted live in front of me without any adulteration. It's so healthy!</blockquote>
+        <figcaption><span class="avatar" aria-hidden="true">MA</span><span>Manisha Agarwal</span></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="faq">
+  <div class="wrap faq-grid">
+    <div class="section-head">
+      <h2>Questions people ask at the counter</h2>
+      <p>Something else? <a href="https://wa.me/917414901815" target="_blank" rel="noopener">Ask us on WhatsApp</a>.</p>
+    </div>
+    <div>
+      <details>
+        <summary>Can I bring my own seeds?</summary>
+        <p class="answer">Yes — that's how most customers use us. Bring groundnut, coconut, mustard, sesame or other seeds and we press them while you wait. You pay only the processing charge per kg.</p>
+      </details>
+      <details>
+        <summary>What if I don't have seeds?</summary>
+        <p class="answer">We stock seeds at wholesale rates for pressing. The final price depends on that day's seed price, so message us for the current rate.</p>
+      </details>
+      <details>
+        <summary>How much oil will I get from 1 kg?</summary>
+        <p class="answer">It depends on the seed and its quality. As a guide: groundnut gives 30–45%, 1 kg of dry coconut gives about 500–600 ml, and 1 kg of kalonji gives about 200–250 ml. Use the calculator at the top for a quick estimate.</p>
+      </details>
+      <details>
+        <summary>How long does it take?</summary>
+        <p class="answer">About 10–15 minutes per litre of oil.</p>
+      </details>
+      <details>
+        <summary>What's the difference between hot press and cold press?</summary>
+        <p class="answer">Cold pressing keeps the seed at a lower temperature, which preserves more of the natural flavour. Hot pressing usually gives a little more oil. You choose — we'll explain the trade-off for your seed at the counter.</p>
+      </details>
+      <details>
+        <summary>Do I need to bring a container?</summary>
+        <p class="answer">It helps — bring your own clean container and save ₹30. Otherwise we fill fridge-grade glass bottles, or pouches for travel, which are ₹25 cheaper than glass.</p>
+      </details>
+      <details>
+        <summary>Is fresh-pressed oil good for frying?</summary>
+        <p class="answer">Groundnut and mustard oil are traditional choices for Indian frying and tempering. Like any unrefined oil, avoid overheating it until it smokes, and don't reuse frying oil many times.</p>
+      </details>
+      <details>
+        <summary>Why does it smell stronger than store oil?</summary>
+        <p class="answer">Refining strips out smell and colour. Unrefined oil keeps the natural aroma of the seed, so mustard smells like mustard and groundnut smells nutty.</p>
+      </details>
+      <details>
+        <summary>How should I store it?</summary>
+        <p class="answer">In a cool, dark place, in glass or steel. Fresh oil has no preservatives, so press the quantity you'll use in the next few weeks rather than stocking up for months.</p>
+      </details>
+      <details>
+        <summary>Why does it cost more than refined oil?</summary>
+        <p class="answer">Small-batch pressing is slower and yields less than industrial extraction, and nothing is blended in to stretch it. What you pay for is whole seed, pressed fresh.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- VISIT -->
+<section class="visit" id="visit">
+  <div class="wrap visit-grid">
+    <div>
+      <h2>Visit the shop</h2>
+      <ul class="contact-list">
+        <li><svg><use href="#i-pin"/></svg><div><strong>Address</strong><a href="https://www.google.com/maps/search/?api=1&query=I+C+My+Oil+Baner+Pune" target="_blank" rel="noopener">131/1/1, S2, Yogiraj Heights, near Cosmos Organic, Baner Balewadi Road, Pune 411045</a></div></li>
+        <li><svg><use href="#i-clock"/></svg><div><strong>Hours</strong>Monday to Sunday, 9:00 am – 7:30 pm</div></li>
+        <li><svg><use href="#i-phone"/></svg><div><strong>Phone</strong><a href="tel:+917414901815">+91 74149 01815</a></div></li>
+        <li><svg><use href="#i-mail"/></svg><div><strong>Email</strong><a href="mailto:icmyoil.btl@gmail.com">icmyoil.btl@gmail.com</a></div></li>
+      </ul>
+      <div class="map">
+        <iframe title="Map to I C My Oil, Baner" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.174873070982!2d73.78262579999999!3d18.566153200000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b9e45e910d19%3A0x796e74ddefbbe459!2sI%20C%20My%20Oil!5e0!3m2!1sen!2sin!4v1738238003199!5m2!1sen!2sin"></iframe>
+      </div>
+    </div>
+    <form class="enquiry" id="enquiry" novalidate>
+      <h3>Send an enquiry</h3>
+      <p>This opens WhatsApp with your message ready to send.</p>
+      <div class="row">
+        <div><label for="q-name">Your name</label><input id="q-name" autocomplete="name" required></div>
+        <div><label for="q-oil">Interested in</label>
+          <select id="q-oil">
+            <option>Pressing my own seeds</option>
+            <option>Buying oil</option>
+            <option>Buying seeds</option>
+            <option>Bulk or regular order</option>
+            <option>Something else</option>
+          </select>
+        </div>
+      </div>
+      <label for="q-msg">Message</label>
+      <textarea id="q-msg" placeholder="e.g. I have 5 kg groundnut — can I come in tomorrow morning?"></textarea>
+      <button class="btn btn-oil" type="submit"><svg><use href="#i-wa"/></svg>Send on WhatsApp</button>
+      <p class="hint" id="q-hint">Prefer email? Write to icmyoil.btl@gmail.com</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <strong class="f-brand">I C My Oil</strong>
+      <p>Fresh oil, pressed in front of you. Bring your seeds or buy ours, and take it home in glass.</p>
+    </div>
+    <div>
+      <strong>Explore</strong>
+      <ul class="footer-links">
+        <li><a href="#how">How it works</a></li>
+        <li><a href="#oils">Oils we press</a></li>
+        <li><a href="#why">Why fresh</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </div>
+    <div>
+      <strong>Hours</strong>
+      <p>Monday to Sunday<br>9:00 am – 7:30 pm</p>
+    </div>
+    <div>
+      <strong>Contact</strong>
+      <p>131/1/1, S2, Yogiraj Heights, Baner Balewadi Road, Pune 411045<br>
+      <a href="tel:+917414901815">+91 74149 01815</a><br>
+      <a href="mailto:icmyoil.btl@gmail.com">icmyoil.btl@gmail.com</a></p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="wrap">
+      <span>© <span id="yr">2026</span> I C My Oil, Baner, Pune</span>
+      <a href="#top">Back to top</a>
+    </div>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/917414901815" target="_blank" rel="noopener" aria-label="Chat with I C My Oil on WhatsApp"><svg><use href="#i-wa"/></svg></a>
+
+<script>
+(() => {
+  const WA = "917414901815";
+  const IMG = "https://icmyoil.com/images/";
+
+  /* Products — content from the current site, rewritten */
+  const products = [
+    {id:"Sunflower-Oil", name:"Sunflower oil", img:"images/sunflower-oil.webp", cat:["cooking"], featured:true, desc:"Light and mild, for frying, baking and salads. Pressed from whole sunflower seed with nothing added.", tags:["Featured"]},
+    {id:"Mustard-Oil", name:"Mustard oil", img:"product-1.webp", cat:["cooking"], desc:"Pressed fresh in 10–15 minutes. Bring your mustard seed or buy ours below market rate.", tags:["₹25/kg processing"]},
+    {id:"Almond-Oil", name:"Almond oil", img:"product-2.webp", cat:["cooking","care"], desc:"Freshly extracted from whole almonds, for cooking, hair and skin.", tags:[]},
+    {id:"Sesame-Oil", name:"Sesame (til) oil", img:"product-3.webp", cat:["cooking","care"], desc:"Single or double filtered, pressed in front of you. Widely used for cooking and massage.", tags:["₹25/kg processing"]},
+    {id:"Groundnut-Oil", name:"Groundnut oil", img:"product-5.webp", cat:["cooking"], desc:"Our most-pressed oil. Groundnut typically yields 30–45% oil by weight.", tags:["₹25/kg processing"]},
+    {id:"Groundnut-Oil-Pouch", name:"Groundnut oil pouch", img:"product-4.webp", cat:["cooking"], desc:"Started on customer request for travel. ₹25 cheaper than a glass bottle.", tags:["Travel pack"]},
+    {id:"Coconut-Oil", name:"Coconut oil", img:"product-6.webp", cat:["cooking","care"], desc:"1 kg of dry coconut gives about 500–600 ml of oil in roughly 10–15 minutes.", tags:[]},
+    {id:"Safflower-Oil", name:"Safflower oil", img:"product-9.webp", cat:["cooking"], desc:"A light, neutral oil for everyday cooking, pressed from whole safflower seed.", tags:[]},
+    {id:"Kalonji-Oil", name:"Kalonji oil", img:"product-8.webp", cat:["care"], desc:"Traditionally used in hair care. 1 kg of kalonji gives about 200–250 ml of oil.", tags:["Small batch"]},
+    {id:"Pumpkin-Seeds-Oil", name:"Pumpkin seed oil", img:"product-10.webp", cat:["cooking","care"], desc:"Freshly pressed from pumpkin seeds. Hard to find fresh anywhere else.", tags:["Small batch"]},
+    {id:"Cosmetic-Oil", name:"Cosmetic oils, 50–100 ml", img:"product-7.webp", cat:["care"], desc:"Small packs of onion seed, coconut, walnut, almond and other oils for hair and skin.", tags:["Small packs"]}
+  ];
+  const list = document.getElementById("products");
+  list.innerHTML = products.map(p => {
+    const msg = encodeURIComponent(`Hi, what's today's price for ${p.name.toLowerCase()}?`);
+    const tags = p.cat.map(c => c==="cooking" ? "Cooking" : "Hair & skin").concat(p.tags)
+      .map(t => `<span class="tag${t==="Featured"?" hot":""}">${t}</span>`).join("");
+    const src = p.img.includes("/") ? p.img : IMG + p.img;
+    return `<li class="product${p.featured?" featured":""}" id="${p.id}" data-cat="${p.cat.join(" ")}">
+      <div class="ph"><img src="${src}" alt="${p.name}" loading="lazy" width="400" height="400"></div>
+      <div class="body">
+        <h3>${p.name}</h3>
+        <p>${p.desc}</p>
+        <div class="tags">${tags}</div>
+        <a class="ask" href="https://wa.me/${WA}?text=${msg}" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>Ask today's price</a>
+      </div></li>`;
+  }).join("");
+
+  document.querySelectorAll(".filters button").forEach(btn => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll(".filters button").forEach(b => b.setAttribute("aria-pressed", b===btn));
+      const f = btn.dataset.filter;
+      list.querySelectorAll(".product").forEach(li => { li.hidden = f!=="all" && !li.dataset.cat.includes(f); });
+    });
+  });
+
+  /* Yield calculator — figures quoted on the shop's current site */
+  const seeds = {
+    groundnut:{lo:.30, hi:.45, fee:25},
+    coconut:  {lo:.50, hi:.60, fee:null},
+    kalonji:  {lo:.20, hi:.25, fee:null},
+    mustard:  {lo:null,hi:null,fee:25},
+    sesame:   {lo:null,hi:null,fee:25}
+  };
+  const MAX_L = 6, MIN_KG = 1, MAX_KG = 10;
+  let kg = 2;
+  const $ = id => document.getElementById(id);
+  const fmt = n => (Math.round(n*100)/100).toString().replace(/\.?0+$/,"");
+  function update(){
+    const s = seeds[$("seed").value];
+    $("kg").textContent = kg + " kg";
+    $("kg-minus").disabled = kg<=MIN_KG; $("kg-plus").disabled = kg>=MAX_KG;
+    let fillL = 0;
+    if (s.lo){
+      const lo = s.lo*kg, hi = s.hi*kg;
+      $("r-yield").textContent = `${fmt(lo)}–${fmt(hi)} L`;
+      const mins = Math.max(10, Math.round(hi*15/5)*5);
+      $("r-time").textContent = `about ${mins} min`;
+      fillL = (lo+hi)/2;
+    } else {
+      $("r-yield").textContent = "Ask us";
+      $("r-time").textContent = "10–15 min per litre";
+    }
+    $("r-fee").textContent = s.fee ? `₹${s.fee*kg}` : "Ask at the counter";
+    const h = Math.min(fillL/MAX_L,1) * 222;
+    const r = $("oil-fill"); r.setAttribute("y", 242-h); r.setAttribute("height", h);
+  }
+  $("seed").addEventListener("change", update);
+  $("kg-minus").addEventListener("click", () => { if(kg>MIN_KG){kg--;update();} });
+  $("kg-plus").addEventListener("click", () => { if(kg<MAX_KG){kg++;update();} });
+  update();
+
+  /* Open-now status in IST */
+  try {
+    const parts = new Intl.DateTimeFormat("en-GB",{timeZone:"Asia/Kolkata",hour:"2-digit",minute:"2-digit",hour12:false}).formatToParts(new Date());
+    const hh = +parts.find(p=>p.type==="hour").value, mm = +parts.find(p=>p.type==="minute").value;
+    const t = hh*60+mm, open = t>=540 && t<1170;
+    $("open-dot").classList.add(open?"open":"closed");
+    $("open-text").textContent = open ? "Open now until 7:30 pm" : "Closed now. Opens at 9:00 am";
+  } catch(e) {}
+
+  /* Enquiry → WhatsApp */
+  $("enquiry").addEventListener("submit", e => {
+    e.preventDefault();
+    const name = $("q-name").value.trim();
+    if(!name){ $("q-name").focus(); $("q-hint").textContent = "Add your name so we know who's writing."; return; }
+    const text = `Hi, I'm ${name}. ${$("q-oil").value}.` + ($("q-msg").value.trim() ? ` ${$("q-msg").value.trim()}` : "");
+    window.open(`https://wa.me/${WA}?text=${encodeURIComponent(text)}`, "_blank", "noopener");
+  });
+
+  /* Header */
+  const header = document.querySelector(".site-header"), menuBtn = document.querySelector(".menu-btn");
+  addEventListener("scroll", () => header.classList.toggle("scrolled", scrollY>8), {passive:true});
+  menuBtn.addEventListener("click", () => {
+    const open = header.classList.toggle("menu-open");
+    menuBtn.setAttribute("aria-expanded", open);
+  });
+  document.querySelectorAll(".nav-links a").forEach(a => a.addEventListener("click", () => {
+    header.classList.remove("menu-open"); menuBtn.setAttribute("aria-expanded", false);
+  }));
+  $("yr").textContent = new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
